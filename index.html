@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .header {
+            background-color: white;
+        }
+
+        .h11 {
+            font-size: 20px;
+        }
+
+        .p1 {
+            font-size: 10px;
+            margin-left: 150px;
+        }
+
+        .nav {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .logo {
+            margin-left: 117px;
+            width: 30px;
+            height: 40px;
+        }
+
+        .nav1 {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            margin-left: 120px;
+        }
+
+        .p2 {
+            color: rgb(156, 156, 156);
+        }
+
+        .div1 {
+            background-color: rgb(255, 187, 0);
+            width: 1500px;
+            height: 500px;
+
+        }
+
+        .h12 {
+            color: white;
+            margin-left: 130px;
+        }
+
+        .p3 {
+            margin-left: 130px;
+        }
+
+        .input1 {
+            width: 500px;
+            height: 50px;
+            margin-left: 130px;
+            border: none;
+            border-radius: 7px;
+            box-shadow: 0px 2px 12px black;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .dostawka {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .dosstawka {
+            display: flex;
+            gap: 564px;
+            justify-content: right;
+        }
+
+        .dosstawkau {
+            display: flex;
+            gap: 410px;
+            justify-content: right;
+        }
+          * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Rubik', sans-serif;
+        }
+
+        .asd1 {
+            width: 100%;
+            background-color: #042C4B;
+            padding: 80px 0 100px 0;
+        }
+
+        .asd2 {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 40px;
+        }
+
+        .asd3 {
+            font-size: 48px;
+            font-weight: 800;
+            line-height: 1.2;
+            color: #FFFFFF;
+            margin-bottom: 24px;
+            max-width: 700px;
+        }
+
+        .asd4 {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #9cb1c9;
+            margin-bottom: 40px;
+            max-width: 650px;
+        }
+
+        .asd5 {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #FDC13D;
+            color: #042C4B;
+            font-size: 16px;
+            font-weight: 700;
+            padding: 16px 48px;
+            border-radius: 8px;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+
+        .asd5:hover {
+            background-color: #FDC13D;
+        }
+
+        @media (max-width: 768px) {
+  .asd1 { 
+    padding: 40px 0 60px 0; 
+  }
+}
+
+
+            .asd2 {
+                padding: 0 20px;
+            }
+
+            .asd3 {
+                font-size: 32px;
+            }
+
+            .asd4 {
+                font-size: 14px;
+            }
+             * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Rubik,sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .qwe1 {
+            background-color: #042C4B;
+            color: #ffffff;
+            padding: 80px 20px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .qwe2 {
+            max-width: 1200px;
+            width: 100%;
+            padding-left: 60px;
+        }
+
+        .qwe3 {
+            font-size: 48px;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 24px;
+            color: #ffffff;
+        }
+
+        .qwe4 {
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 1.6;
+            color: #a0b2c6;
+            max-width: 820px;
+            margin-bottom: 48px;
+        }
+
+        .qwe5 {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .qwe6 {
+            width: 400px;
+            height: 56px;
+            padding: 0 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 15px;
+            outline: none;
+            background-color: #ffffff;
+            color: #333333;
+        }
+
+        .qwe6::placeholder {
+            color: #8c98a4;
+        }
+
+        .qwe7 {
+            height: 56px;
+            padding: 0 40px;
+            background-color: #FDC13D;
+            color: #042C4B;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+
+        .qwe7:hover {
+            background-color: #FDC13D;
+        }
+
+        @media (max-width: 768px) {
+            .qwe2 {
+                padding-left: 0;
+            }
+
+            .qwe3 {
+                font-size: 32px;
+            }
+
+            .qwe6 {
+                width: 100%;
+            }
+
+            .qwe7 {
+                width: 100%;
+            }
+        }
+        .mmmmmmmmmmmmmmmmm {
+            margin: 0;
+            background-color: #F8F8F8;
+        }
+
+        .colorhhh {
+            background-color: #F8F8F8;
+            padding: 40px;
+        }
+
+        .colorhhh h2 {
+            font-size: 28px;
+            color: #003366;
+            margin-bottom: 24px;
+        }
+
+        .news-card {
+            background-color: #FFFFFF;
+            border-radius: 12px;
+            padding: 24px;
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            max-width: 600px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+        }
+
+        .popopo {
+            height: 64px;
+            width: 64px;
+
+        }
+
+        .news-content {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .news-content small {
+            color: #8C8C8C;
+            font-size: 12px;
+        }
+
+        .news-content b {
+            font-size: 16px;
+            color: #262626;
+            line-height: 1.4;
+        }
+
+        .news-content a {
+            color: #595959;
+            font-size: 14px;
+            margin-top: 4px;
+        }
+
+        .bnbnbnbnbnbnnb {
+            display: flex;
+        }
+
+
+
+
+
+        .buttons-gridd {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 1000px;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .menu-btn {
+            background-color: #ffffff;
+            border: none;
+            border-radius: 12px;
+            padding: 35px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #717680;
+            text-align: left;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+        }
+
+        .menu-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+            color: #4b515a;
+        }
+
+        @media (max-width: 768px) {
+            .buttons-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .buttons-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+         body {
+            margin: 0;
+            padding: 0;
+            background-color: #1D2023;
+            font-family: 'Rubik', sans-serif;
+        }
+
+        .zxc1 {
+            background-color: #1D2023;
+            color: #99A2AA;
+            padding: 60px 40px 40px;
+            box-sizing: border-box;
+        }
+
+        .zxc2 {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+        }
+
+        .zxc3 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .zxc4 {
+            color: #99A2AA;
+            font-size: 16px;
+            font-weight: 700;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .zxc5 {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .zxc6 {
+            margin-bottom: 12px;
+        }
+
+        .zxc7 {
+            color: #99A2AA;
+            text-decoration: none;
+            font-size: 14px;
+            line-height: 1.4;
+            transition: color 0.2s ease;
+        }
+
+        .zxc7:hover {
+            color: #99A2AA;
+        }
+
+        .zxc8 {
+            max-width: 1200px;
+            margin: 40px auto 0;
+            border-top: 1px solid #1D2023;
+        }
+        .erdftgyhujigydrrftgyhuhytfgyhygfcgtyhgyuhygug{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body class="mmmmmmmmmmmmmmmmm">
+    <header class="header">
+        <nav class="nav">
+            <img src="img/logo-shape.png" alt="logo" class="logo">
+            <h1 class="h11">УКРПОШТА</h1>
+        </nav>
+        <p class="p1">ГОЛОВНА ПОШТА КРАЇНИ</p>
+        <nav class="nav1">
+            <p class="p2">Трекінг</p>
+            <p class="p2">Послуги</p>
+            <p class="p2">Тарифи</p>
+            <p class="p2">Відділення</p>
+            <p class="p2">Філателія</p>
+            <p class="p2">Кар'єра</p>
+            <p class="p2">Бізнесу</p>
+        </nav>
+        <div class="div1">
+            <h1>ㅤ</h1>
+            <h1 class="h12">Оформлюйте</h1>
+            <h1 class="h12">передплату!</h1>
+            <p class="p3">Досхочу вибирайте й призи вигравайте</p>
+            <h1>ㅤ</h1>
+            <h1>ㅤ</h1>
+            <input type="search" placeholder="ㅤㅤВведіть номер замовлення" class="input1">
+        </div>
+    </header>
+
+
+
+
+    <main>
+        <section class="3erdftgyhujigydrrftgyhuhytfgyhygfcgtyhgyuhygug">
+            <img src="img/Link (8).png">
+            <img src="img/Link (9).png">
+            <img src="img/Link (10).png">
+            <img src="img/Link (11).png">
+        </section>
+        <div class="dostawka">
+            <section>
+                <h1>Поштові<br>Послуги</h1>
+            </section>
+            <section>
+                <h2>Доставка<br>по Україні</h2>
+                <b>Докладніше</b>
+            </section>
+            <section>
+                <h2>Доставка<br>документів</h2>
+                <b>Докладніше</b>
+            </section>
+        </div>
+
+        <div class="dostawka">
+            <section>
+                <p>Замовляйте доставку у найвіддаленіші куточки<br>України, відправляйте й отримуйте посилки з<br>усього
+                    світу і навпаки.</p>
+                <p>Виберіть доставку, яка найкраще підійде вам<br>за термінами пересилання і вартістю.</p>
+            </section>
+            <div class="dosstawkau">
+                <section>
+                    <h2>Доставка з інтернет-<br>магазинів</h2>
+                    <b>Докладніше</b>
+                </section>
+                <section>
+                    <h2>Доставка ліків</h2>
+                    <b>Докладніше</b>
+                </section>
+            </div>
+        </div>
+
+        <div class="dosstawka">
+            <section>
+                <h2>Доставка<br>по світу</h2>
+                <b>Докладніше</b>
+            </section>
+            <section>
+                <h2>Доставка в<br>Україну</h2>
+                <b>Докладніше</b>
+            </section>
+        </div>
+
+
+
+
+         <section class="asd1">
+        <div class="asd2">
+            <h1 class="asd3">Започаткуйте успішний міжнародний бізнес!</h1>
+            <p class="asd4">
+                Продавайте товари за кордон через інтернет<br>
+                — нам довіряють 25 тисяч підприємців
+            </p>
+            <a href="#" class="asd5">Перейти</a>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="qwe1">
+        <div class="qwe2">
+            <h1 class="qwe3">Знайти індекс</h1>
+            <p class="qwe4">
+                Поштовий індекс — це код із 5 цифр, який допомагає пришвидшити сортування та доставку відправлень.
+                Поштовий індекс мають всі відділення Укрпошти та всі населені пункти України.
+            </p>
+            <form class="qwe5">
+                <input type="text" class="qwe6" placeholder="Введіть назву населеного пункту" />
+                <button type="submit" class="qwe7">Знайти</button>
+            </form>
+        </div>
+    </section>
+<div class="bnbnbnbnbnbnnb">
+        <div class="colorhhh">
+            <section>
+                <h2>Новини</h2>
+            </section>
+
+            <section class="news-card">
+                <img class="popopo" src="img/350_icon-01.png.png" alt="Іконка новини">
+                <div class="news-content">
+                    <small>06.11.2023</small>
+                    <b>Відновлення історичної назви міста<br>Звягель</b>
+                    <a>09 листопада п.р. відбудеться погашення</a>
+                </div>
+            </section>
+        </div>
+
+
+        <div class="colorhhh">
+
+
+            <section class="news-card">
+                <img class="popopo" src="img/350_icon-01.png.png" alt="Іконка новини">
+                <div class="news-content">
+                    <small>03.11.2023</small>
+                    <b>У селі Архангельське на Херсонщині<br>
+                        відкрили стаціонарне відділення<br>
+                        Укрпошти</b>
+                    <a>Днями відновило свою роботу стаціонарне автоматизоване
+                        відділення Укрпошти в селищі Архангельське (74022)…</a>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="bnbnbnbnbnbnnb">
+        <div class="colorhhh">
+
+
+            <section class="news-card">
+                <img class="popopo" src="img/350_icon-01.png.png" alt="Іконка новини">
+                <div class="news-content">
+                    <small>03.11.2023</small>
+                    <b>Укрпошта в Японії: українські марки на<br>
+                        філателістичній виставці JAPEX2023</b>
+                    <a>Сьогодні відбулося урочисте відкриття Всеяпонської<br>
+                        філателістичної виставки JAPEX2023 під загальною назвою…</a>
+                </div>
+            </section>
+        </div>
+        <div class="colorhhh">
+
+
+            <section class="news-card">
+                <img class="popopo" src="img/350_icon-01.png.png" alt="Іконка новини">
+                <div class="news-content">
+                    <small>03.11.2023</small>
+                    <b>Півтора року співпраці Укрпошти та<br>
+                        Укрзалізниці: перевезено ≈15 млн<br>
+                        відправлень та виплачено ≈170 млн грн…</b>
+                    <a>В Укрпошти й Укрзалізниці спільною є не лише основа «укр», а й<br>
+                        проєкти, що реалізуються для підтримки українців та України. …</a>
+                </div>
+            </section>
+        </div>
+    </div>
+    <section>
+        <h2>Для юридичних осіб</h2>
+    </section>
+
+
+
+
+    <div class="buttons-gridd">
+        <button class="menu-btn">Відправлення по Україні</button>
+        <button class="menu-btn">Експорт</button>
+        <button class="menu-btn">Програмне забезпечення</button>
+        <button class="menu-btn">Укласти договір</button>
+        <button class="menu-btn">Інтеграція API</button>
+        <button class="menu-btn">Особистий кабінет</button>
+    </div>
+
+
+
+    </main>
+<footer>
+        <div class="zxc1">
+            <div class="zxc2">
+                <div class="zxc3">
+                    <h3 class="zxc4">Загальна інформація</h3>
+                    <ul class="zxc5">
+                        <li class="zxc6"><a href="#" class="zxc7">Про Укрпошту</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Наглядова рада</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Керівництво</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Дирекції</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Публічна інформація</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Закупівлі</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Продаж і оренда нерухомості</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Протидія корупції</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Політика безпеки дорожнього руху</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Конфіденційність</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Для представників ЗМІ</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Новини</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Акції</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Контакт-центр</a></li>
+                    </ul>
+                </div>
+ <div class="zxc3">
+                    <h3 class="zxc4">Поштові послуги</h3>
+                    <ul class="zxc5">
+                        <li class="zxc6"><a href="#" class="zxc7">Укрпошта Експрес</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Укрпошта Стандарт</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Укрпошта Документи</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Доставка по світу</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Доставка в Україну</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Великогабаритні або великовагові відправлення</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Кур'єрська доставка</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Розрахунок вартості</a></li>
+                    </ul>
+                </div>
+
+                <div class="zxc3">
+                    <h3 class="zxc4">Фінансові послуги</h3>
+                    <ul class="zxc5">
+                        <li class="zxc6"><a href="#" class="zxc7">Переказ «З картки додому»</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Переказ «З картки до відділення»</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Переказ «З картки на картку»</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Міжнародні поштові перекази</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Внутрішні поштові перекази</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Платежі</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Страхові послуги</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Валютно-обмінні операції</a></li>
+                    </ul>
+                </div>
+
+                <div class="zxc3">
+                    <h3 class="zxc4">Інше</h3>
+                    <ul class="zxc5">
+                        <li class="zxc6"><a href="#" class="zxc7">Онлайн-сервіси</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Онлайн-передплата</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Поштовий маркет</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Продукти «Власної марки»</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Періодичні видання</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Для видавців</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Посткросинг</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Секограма</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Знайти індекс</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Знайти адресу</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Знайти відділення</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">Довідка</a></li>
+                        <li class="zxc6"><a href="#" class="zxc7">API від Укрпошти</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
